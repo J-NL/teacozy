@@ -1,0 +1,137 @@
+
+
+
+/* Universal */
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+div {
+  border: 4px dotted orange;
+}
+
+
+h2, h4, h3 {
+  text-align: center;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+/* Mission section */
+
+
+.container {
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+.mis-block {
+  background-image: url("../resources/images/img-mission-background.jpg");
+  background-color: orange;
+  width: 1200px;
+  height: 700px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mission {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+}
+
+
+/* Tea of the month */
+
+.center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: green;
+}
+
+.teasort {
+  background-color: blue;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.photo img {
+  background-color: orange;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url("../resources/images/img-locations-background.jpg");
+  background-color: orange;
+  width: 1200px;
+  height: 700px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.loc-block {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+}
