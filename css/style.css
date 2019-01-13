@@ -14,15 +14,10 @@ body {
   opacity: 0.9;
 }
 
-div {
-  border: 4px dotted orange;
-}
-
 
 h2, h4, h3 {
   text-align: center;
 }
-
 
 /* Header */
 
@@ -66,7 +61,6 @@ nav span {
 
 .container {
   margin: 0 auto;
-  border: 1px solid white;
 }
 
 .mis-block {
@@ -74,7 +68,6 @@ nav span {
   background-color: orange;
   width: 1200px;
   height: 700px;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -93,11 +86,9 @@ nav span {
   display: flex;
   width: 100%;
   justify-content: center;
-  background-color: green;
 }
 
 .teasort {
-  background-color: blue;
   width: 1000px;
   display: flex;
   justify-content: space-around;
@@ -106,7 +97,6 @@ nav span {
 }
 
 .photo img {
-  background-color: orange;
   width: 300px;
   height: 200px;
   border: 1px solid black;
@@ -117,6 +107,7 @@ nav span {
   margin: 5px;
   text-align: center;
   font-weight: bold;
+  padding: 5px;
 }
 
 /* Locations */
@@ -149,6 +140,10 @@ nav span {
   margin: 20px;
   text-align: center;
   opacity: 1;
+}
+
+.loc-block p {
+  height: 50px;
 }
 
 
